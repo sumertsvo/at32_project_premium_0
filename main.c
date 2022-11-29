@@ -27,7 +27,7 @@ void delay(unsigned long cycles)
 {
     while(cycles >0)
         cycles--; // Some stupid delay, it is not in milliseconds or microseconds, but rather in some 'wasted clock cycles'
- wdt_counter_reload();
+ //wdt_counter_reload();
 
 
 }
